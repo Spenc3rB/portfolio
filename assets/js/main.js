@@ -57,15 +57,7 @@
   /**
    * on the click of the link (a), the user is redirected to the contact section and the form entries are filled automatically based on id
    */
-  on('click', '#contact', function(e) {
-    let name = select('#name')
-    let email = select('#email')
-    let subject = select('#subject')
-    let message = select('#message')
-    name.value = 'John Doe'
-    email.value = ''
-  })
-
+  
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
