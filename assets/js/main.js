@@ -55,8 +55,25 @@
   })
 
   /**
-   * on the click of the link (a), the user is redirected to the contact section and the form entries are filled automatically based on id
+   * Fade in with scroll on timeline
    */
+  document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+            } else {
+                entry.target.classList.remove('fade-in');
+            }
+        });
+    });
+
+    const listItems = document.querySelectorAll('.timeline-list li');
+    
+    listItems.forEach(item => {
+        observer.observe(item);
+    });
+  });
   
   /**
    * Scrool with ofset on links with a class name .scrollto

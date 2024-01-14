@@ -30,7 +30,7 @@
 
   <!-- =======================================================
   * Template Name: Personal
-  * Updated: Aug 30 2023 with Bootstrap v5.3.1
+  * Updated: 2024 with Bootstrap v5.3.1
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
   * Author: BootstrapMade.com - Largely edited by Spencer Beer
   * License: https://bootstrapmade.com/license/
@@ -50,8 +50,7 @@
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#timeline">Timeline</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -79,10 +78,12 @@
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+          <a download="assets/pdfs/uGrad2024SpencerB.pdf" href="assets/pdfs/uGrad2024SpencerB.pdf" title="Click me to obtain a copy of my resume">
+            <img src="assets/img/me.jpg" class="img-fluid" alt="click to get my resume">
+          </a>
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Embedded &amp; IoT Developer</h3>
+          <h3>Prospective Embedded &amp; IoT Developer</h3>
           <p class="fst-italic">
             Strong academic record with a passion for continuous learning and a desire to contribute to 
             cutting-edge technologies in the field of embedded systems & IoT, machine learning, and autonomy. 
@@ -112,84 +113,9 @@
 
     </div><!-- End About Me -->
 
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Major skills</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">HTML, CSS, and JavaScript<i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">C/C++<i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Python<i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Java<i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">Assembly (ARM, MIPS)<i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Verilog<i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Scripting (Bash, PowerShell)<i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Machine Learning (TensorFlow, Pandas, Keras)<i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div><!-- End Skills -->
-
     <!-- ======= Interests ======= -->
+
+    <!-- TODO: Edit with tooltips -->
     <div class="interests container">
 
       <div class="section-title">
@@ -199,7 +125,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-4">
           <div class="icon-box">
-            <i class="ri-snowy-fill" style="color: #ffbb2c;"></i>
+            <i class="ri-snowy-line" style="color: #ffbb2c;"></i>
             <h3>Skiing</h3>
           </div>
         </div>
@@ -229,7 +155,7 @@
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-printer-fill" style="color: #ffa76e;"></i>
+            <i class="ri-printer-line" style="color: #ffa76e;"></i>
             <h3>3D Printing</h3>
           </div>
         </div>
@@ -275,68 +201,83 @@
 
   </section><!-- End About Section -->
 
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
+<!-- ======= Timeline Section ======= -->
+<section id="timeline" class="timeline">
+  <div class="container">
 
-        <div class="section-title">
-            <h2>Resume</h2>
-            <p>View My Resume</p>
-        </div>
-
-        <iframe src="assets/pdfs/uGrad2024SpencerB.pdf" width="100%" height="800px"></iframe>
-
+    <div class="section-title">
+      <h2>Timeline</h2>
+      <p>My Professional Timeline</p>
     </div>
+
+    <div>
+      <p  style="font-size: 2em;">Also available on <a class="timeline-link" href="https://www.linkedin.com/in/spencerbeer/" target="_blank">Linked<i class="bi bi-linkedin" style="padding-left: 3px;"></i></a></p>
+    </div>
+
+    <!-- Section: Timeline -->
+    <div class="py-5">
+      <ul class="timeline-list">
+        <li class="timeline-item mb-5">
+          <p class="timeline-text-b mb-2 fw-bold">1 November 2024</p>
+          <h5 class="fw-bold">Started work with <u><a href="https://www.engr.colostate.edu/~jdaily/truck/index.html" target="_blank">Systems Cyber</a></u> as an Undergraduate Research Associate</h5>
+            <p>Currently working at the Colorado State University Powerhouse Energy Campus, this position has given me invaluable experience in cyber and embedded research within heavy vehicles. I have been able to work and be apart of a variety of projects including a CAN Data Diode.</p>
+            <img src="assets/img/CyberTruck.JPG" alt="CSU Systems Cyber Truck">
+            <!-- Skills Gained -->
+            <ul>
+              <a class="timeline-link" href="https://github.com/SystemsCyber/CAN-Data-Diode-STM32-ARM" target="_blank"><li><i class='bx bxl-c-plus-plus' style="font-size: 3em;"></i> STM32 MCU Programming</li></a>
+              <a class="timeline-link" href="https://bendix-brakes.com/" target="_blank"><li><i class='bx bxs-truck' style="font-size: 3em;"></i> Bendix Brake Certified</li></a>
+            </ul>
+            <!-- End Skills Gained -->
+        </li>
+
+        <li class="timeline-item mb-5">
+          <p class="timeline-text-b mb-2 fw-bold">17 August 2022 - 12 January 2024</p>
+          <h5 class="fw-bold">Started work with <u><a href="https://www.engr.colostate.edu/ets/" target="_blank">ETS</a></u> as an Support Technician</h5>
+          <p> Left ETS to pursue a position with Systems Cyber, and to focus on my studies. I was able to gain valuable experience in customer service, technical support, hardware/software troubleshooting, and administration. Couldn't have been better opportunity to learn and grow my skills with this amazing team.</p>
+            <img src="assets/img/ETS.jpg" alt="CSU Systems Cyber Truck">
+              <!-- Skills Gained -->
+              <ul>
+                <a class="timeline-link" href="#portfolio" target="_blank"><li><i class='bx bxl-windows' style="font-size: 3em;"></i><i class='ri-ubuntu-line' style="font-size: 3em;"></i><i class='bx bxl-apple' style="font-size: 3em;"></i> Windows &amp; Unix Operating Systems</li></a>
+                <a class="timeline-link"><li><i class='bi bi-terminal' style="font-size: 3em;"></i> Bash / PowerShell Scripting</li></a>
+                <a class="timeline-link"><li><i class='bi bi-motherboard' style="font-size: 3em;"></i> Hardware Assembly and Troubleshooting</li></a>
+                <a class="timeline-link"><li><i class='bi bi-server' style="font-size: 3em;"></i> Network Administration and Troubleshooting</li></a>
+              </ul>
+              <!-- End Skills Gained -->
+        </li>
+
+        <li class="timeline-item mb-5">
+          <p class="timeline-text-b mb-2 fw-bold">15 May 2022 - 16 August 2022</p>
+          <h5 class="fw-bold">Started work with the <u><a href="https://www.engr.colostate.edu/engineering-success-center/" target="_blank">Engineering Succes Center</a></u> as a Front Desk Associate</h5>
+          <p> Left the Engineering Success Center to pursue a position with ETS. I was able to gain valuable experience in customer service, Office 365, technical writing, and grow my soft skills. I made amazing connections and friends that I would like to thank while I worked here.</p>
+            <img src="assets/img/ESC.jpg" alt="CSU Systems Cyber Truck">
+              <!-- Skills Gained -->
+              <ul>
+                <a class="timeline-link" href="https://github.com/Spenc3rB/Win10-Welcome-Kiosk" target="_blank"><li><i class='bx bxl-python' style="font-size: 3em;"></i> Python Programming</li></a>
+                <a class="timeline-link" href="https://github.com/Spenc3rB/Win10-Welcome-Kiosk" target="_blank"><li><i class='bi bi-speedometer' style="font-size: 3em;"></i> UI/UX Design</li></a>
+                <a class="timeline-link" href="#portfolio" target="_blank"><li><i class='ri-article-line' style="font-size: 3em;"></i> Technical Writing</li></a>
+                <a class="timeline-link"><li><i class='ri-cloud-line' style="font-size: 3em;"></i> Office 365</li></a>
+              </ul>
+              <!-- End Skills Gained -->
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
-<!-- End Resume Section -->
+<!-- End Timeline Section -->
 
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
-    <div class="container">
 
-      <div class="section-title">
-        <h2>Services</h2>
-        <p>My Services</p>
-      </div>
 
-      <!-- EDIT needed for contacting me with details from link -->
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bi bi-browser-chrome"></i></div>
-            <h4><a href="#" id="web-form-fill">Website Design</a></h4>
-            <p>Want me to design a website for you? I offer free web development for personal-use and small businesses!</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bi bi-badge-3d"></i></div>
-            <h4><a href="#">3D Printing</a></h4>
-            <p>I offer 3D prints for clients with PLA/ABS. Contact me to see what's included.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bi bi-cpu"></i></div>
-            <h4><a href="#">Custom Setup</a></h4>
-            <p>With years of experience building PCs, I can build you a top-of-the-line setup at the absolute lowest cost to you!</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Services Section -->
-
-  <!-- ======= Portfolio Section ======= -->
+<!-- ======= Portfolio Section ======= -->
 <section id="portfolio" class="portfolio">
   <div class="container">
 
       <div class="section-title">
           <h2>Portfolio</h2>
-          <p>My Works</p>
+          <p>My work</p>
+      </div>
+
+      <div>
+        <p  style="font-size: 2em;">Also available on <a class="timeline-link" href="https://github.com/Spenc3rB" target="_blank">GitHub<i class="bi bi-github" style="padding-left: 3px;"></i></a></p>
       </div>
 
       <hr>
@@ -354,15 +295,22 @@
 
       <div class="row portfolio-container">
 
+          <a href="/assets/pdfs/2023-APDde.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-proj portfolio-details-lightbox" title="Click for more details" target="_blank">
+            <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/APDde.gif" class="img-fluid" alt="APDde">
+                <div class="portfolio-info">
+                    <h4>Autonomous Pedestrian Detection with Depth Estimation</h4>
+                    <p>Project</p>
+                </div>
+            </div>
+          </a>
+
           <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/GoKart/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-proj portfolio-details-lightbox" title="Click for more details" target="_blank">
             <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/Kart.jpg" class="img-fluid" alt="Aquatic Monitor">
                 <div class="portfolio-info">
                     <h4>Electric Go-Kart</h4>
                     <p>Project</p>
-                    <div class="portfolio-links">
-                        <i class="bx bx-link"></i>
-                    </div>
                 </div>
             </div>
           </a>
@@ -373,9 +321,6 @@
                   <div class="portfolio-info">
                       <h4>Aquatic Monitor</h4>
                       <p>Project</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
                   </div>
               </div>
           </a>
@@ -386,103 +331,73 @@
                   <div class="portfolio-info">
                       <h4>GenoSENSE</h4>
                       <p>Project</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
                   </div>
               </div>
           </a>
-
+          <!-- TODO
           <a href="assets/pdfs/na.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-docs portfolio-details-lightbox" title="Click for more details" target="_blank">
               <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/windows.jpg" class="img-fluid" alt="Windows OS">
                   <div class="portfolio-info">
                       <h4>Windows OS</h4>
                       <p>Documentation</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
                   </div>
               </div>
-          </a>
+          </a> -->
 
+          <!-- TODO
           <a href="assets/pdfs/na.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-docs portfolio-details-lightbox" title="Click for more details" target="_blank">
               <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/linux.jpg" class="img-fluid" alt="Linux OS">
                   <div class="portfolio-info">
                       <h4>Linux OS</h4>
                       <p>Documentation</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
                   </div>
               </div>
-          </a>
+          </a> -->
 
-          <a href="assets/pdfs/na.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-docs portfolio-details-lightbox" title="Click for more details" target="_blank">
-              <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/mac.jpg" class="img-fluid" alt="Mac OS">
-                  <div class="portfolio-info">
-                      <h4>Mac OS</h4>
-                      <p>Documentation</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
-                  </div>
-              </div>
-          </a>
-
+          <!-- TODO
           <a href="assets/pdfs/na.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-proj filter-docs portfolio-details-lightbox" title="Click for more details" target="_blank">
               <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/networking.jpg" class="img-fluid" alt="Home Networking">
                   <div class="portfolio-info">
                       <h4>Home Networking</h4>
                       <p>Project / Documentation</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
                   </div>
               </div>
-          </a>
+          </a> -->
 
-          <a href="assets/pdfs/na.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-docs portfolio-details-lightbox" title="Click for more details" target="_blank">
-              <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/minecraft.jpg" class="img-fluid" alt="Minecraft Server">
-                  <div class="portfolio-info">
-                      <h4>Minecraft Server</h4>
-                      <p>Documentation</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
-                  </div>
-              </div>
-          </a>
-
+          <!-- TODO
           <a href="assets/pdfs/na.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-docs portfolio-details-lightbox" title="Click for more details" target="_blank">
               <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/kodi.jpg" class="img-fluid" alt="Kodi">
                   <div class="portfolio-info">
                       <h4>Kodi</h4>
                       <p>Documentation</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
                   </div>
               </div>
-          </a>
+          </a> -->
 
+          <!-- TODO
           <a href="assets/pdfs/na.pdf" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-proj filter-docs portfolio-details-lightbox" title="Click for more details" target="_blank">
               <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/ender.jpg" class="img-fluid" alt="Smart Ender 3 Pro">
                   <div class="portfolio-info">
-                      <h4>Smart Ender 3 Pro</h4>
+                      <h4>"Smart" Ender 3 Pro</h4>
                       <p>Project / Documentation</p>
-                      <div class="portfolio-links">
-                          <i class="bx bx-link"></i>
-                      </div>
                   </div>
               </div>
-          </a>
+          </a> -->
+
+          <a href="https://systemscyber.engr.colostate.edu/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="col-lg-4 col-md-6 portfolio-item filter-resh" title="Click for more details" target="_blank">
+              <div class="portfolio-wrap">
+                  <img src="assets/img/CyberTruck.JPG" class="img-fluid" alt="SystemsCyber">
+                  <div class="portfolio-info">
+                      <h4>Heavy Vehicle Cyber Security</h4>
+                      <p>Research</p>
+                  </div>
+              </div>
+          </a>  
 
       </div>
 
@@ -527,44 +442,20 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
-
     </div>
   </section><!-- End Contact Section -->
 
   <div class="credits">
-    Spencer Beer © 2023 through <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    Spencer Beer © 2024 through <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <br> Last updated 1/14/2024
   </div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
