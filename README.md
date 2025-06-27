@@ -1,3 +1,3 @@
 # About
 
-This is a Work in Progress.
+My portfolio, updated every 6 months, showcasing my latest projects and skills.
